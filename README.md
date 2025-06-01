@@ -1,7 +1,7 @@
 # MacOS Roblox Address Finding Guide (COSINE)
 
 ## Overview
-The hardcoded addresses in the original injection code are outdated and need to be updated for current Roblox versions. This guide explains how to find the current addresses.
+The hardcoded addresses in the original injection code inside cosine are outdated and need to be updated for current Roblox versions. This just explains how to find the current addresses.
 
 ## Required Tools
 1. **Hopper Disassembler** - For static analysis
