@@ -601,21 +601,13 @@ bool test_all_addresses() {
 1. Test with current Roblox version
 2. Verify all functions work correctly
 3. Test script execution end-to-end
-4. Check for crashes or memory corruption
-
-## Security Considerations
+4. Check for crashes or memory corruption/encryption
 
 ### Code Signing
-- Roblox may have code signing verification
-- Injection may trigger anti-cheat detection
-- Consider stealth techniques
-
-### Anti-Cheat
-- Roblox has built-in anti-cheat (Byfron)
-- Avoid suspicious memory patterns
-- Use legitimate API calls when possible
-
+- Injection may trigger AC detection or rate limits in some cases
+  
 ## Debugging Tips
+ghidra has a built in debugger, same with ida and hopper
 
 ### Common Issues
 1. **Segmentation Faults**: Wrong addresses or calling conventions
@@ -632,5 +624,5 @@ export MallocStackLogging=1
 leaks RobloxPlayer
 ```
 
-## Legal Notice
-This information is for educational purposes only. Ensure compliance with Roblox Terms of Service and applicable laws.
+## thank you
+huge thanks to dtr69
