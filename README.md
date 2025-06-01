@@ -10,7 +10,7 @@ The hardcoded addresses in the original injection code inside cosine are outdate
 4. **class-dump** - For Objective-C headers
 5. **otool** - For Mach-O analysis
 
-## Detailed Address Finding Guide
+## Address Finding Guide
 
 ### 1. luau_load Function
 **What it does**: Loads Luau bytecode into the Lua state
