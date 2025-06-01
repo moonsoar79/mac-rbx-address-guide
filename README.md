@@ -1,4 +1,4 @@
-# MacOS Roblox Address Finding Guide (COSINE)
+# macOS address finding guide
 
 ## Overview
 The hardcoded addresses in the original injection code inside cosine are outdated and need to be updated for current Roblox versions. This just explains how to find the current addresses.
